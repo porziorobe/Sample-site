@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40" fill="none">
+  <rect x="0" y="10" width="20" height="20" rx="3" fill="#4A5568"/>
+  <text x="28" y="26" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#4A5568" letter-spacing="-0.5">Apex</text>
+  <text x="65" y="26" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#8A94A6" letter-spacing="-0.3">Group</text>
+</svg>
