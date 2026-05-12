@@ -17,7 +17,7 @@
       background: linear-gradient(90deg, rgba(13,27,42,0.88) 0%, rgba(13,27,42,0.6) 50%, rgba(13,27,42,0.35) 100%);
       z-index: 0;
     }
-    .hero .hero__inner { position: relative; z-index: 1; }
+    .hero .hero__inner { position: relative; z-index: 1; grid-template-columns: 1fr; }
   </style>
   <script src="https://cdn.c360a.salesforce.com/beacon/c360a/95ad2f1d-0078-4069-8946-a0fe01b6fd15/scripts/c360a.min.js" async></script>
 </head>
@@ -99,37 +99,6 @@
                class="cta-secondary"
                data-personalization-id="hero-cta-secondary"
                data-segment-target="hero-cta-secondary">See Solutions</a>
-          </div>
-        </div>
-        <div class="hero__visual"
-             data-personalization-id="hero-visual"
-             data-segment-target="hero-visual">
-          <div class="device-mockup-row" data-personalization-id="device-mockups">
-            <div class="device-mockup device-mockup--tv">
-              <svg viewBox="0 0 480 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="device-mockup__frame">
-                <rect x="8" y="8" width="464" height="260" rx="6" fill="#1a1a2e"/>
-                <rect x="16" y="16" width="448" height="244" rx="3" class="device-mockup__screen-rect" fill="#0D1B2A"/>
-                <rect x="180" y="276" width="120" height="4" rx="2" fill="#2a2a3e"/>
-                <rect x="160" y="284" width="160" height="8" rx="2" fill="#2a2a3e"/>
-              </svg>
-              <div class="device-mockup__content device-mockup__content--tv"></div>
-            </div>
-            <div class="device-mockup device-mockup--tablet">
-              <svg viewBox="0 0 200 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="device-mockup__frame">
-                <rect x="4" y="4" width="192" height="272" rx="14" fill="#1a1a2e"/>
-                <rect x="12" y="20" width="176" height="240" rx="6" class="device-mockup__screen-rect" fill="#0D1B2A"/>
-                <circle cx="100" cy="270" r="4" fill="#2a2a3e"/>
-              </svg>
-              <div class="device-mockup__content device-mockup__content--tablet"></div>
-            </div>
-            <div class="device-mockup device-mockup--phone">
-              <svg viewBox="0 0 120 240" fill="none" xmlns="http://www.w3.org/2000/svg" class="device-mockup__frame">
-                <rect x="4" y="4" width="112" height="232" rx="18" fill="#1a1a2e"/>
-                <rect x="10" y="18" width="100" height="204" rx="6" class="device-mockup__screen-rect" fill="#0D1B2A"/>
-                <rect x="42" y="8" width="36" height="4" rx="2" fill="#2a2a3e"/>
-              </svg>
-              <div class="device-mockup__content device-mockup__content--phone"></div>
-            </div>
           </div>
         </div>
       </div>
