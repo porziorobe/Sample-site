@@ -523,6 +523,14 @@
   <script src="js/main.js"></script>
 
   <script type="text/javascript">
+    window.addEventListener("onEmbeddedMessagingReady", () => {
+      if (embeddedservice_bootstrap.settings &&
+          embeddedservice_bootstrap.settings.embeddedServiceConfig &&
+          embeddedservice_bootstrap.settings.embeddedServiceConfig.fallbackMessage) {
+        embeddedservice_bootstrap.settings.embeddedServiceConfig.fallbackMessage.isFallbackMessageEnabled = false;
+      }
+    });
+
     function initEmbeddedMessaging() {
       try {
         embeddedservice_bootstrap.settings.language = 'en_US';
