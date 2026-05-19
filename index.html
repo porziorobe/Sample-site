@@ -521,5 +521,24 @@
   </div>
 
   <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+    function initEmbeddedMessaging() {
+      try {
+        embeddedservice_bootstrap.settings.language = 'en_US';
+        embeddedservice_bootstrap.init(
+          '00DdK000008dGgK',
+          'QuadstarAds',
+          'https://ng6f74a3fc0f134709951ed6b63ba3f869.my.site.com/ESWQuadstarAds1779196107728',
+          {
+            scrt2URL: 'https://ng6f74a3fc0f134709951ed6b63ba3f869.my.salesforce-scrt.com'
+          }
+        );
+      } catch (err) {
+        console.error('Error loading Embedded Messaging: ', err);
+      }
+    }
+  </script>
+  <script type="text/javascript" src="https://ng6f74a3fc0f134709951ed6b63ba3f869.my.site.com/ESWQuadstarAds1779196107728/assets/js/bootstrap.min.js" onload="initEmbeddedMessaging()"></script>
 </body>
 </html>
